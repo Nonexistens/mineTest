@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/doshechka"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answer_one"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/doshechka"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/answer_two"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/doshechka"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/answer_three"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/doshechka"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_gravity="center" />
+</LinearLayout>
